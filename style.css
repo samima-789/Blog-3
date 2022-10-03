@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background:#ececec;
+}
+
+
+h1{
+  text-align: center;
+  padding: 20px;
+}
+
+hr{
+  width: 150px;
+  display: table;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-wrapper{
+  padding:15px;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+  
+.blog-card{
+  max-width:300px;
+  margin:15px;
+  background:#fff;
+  border:1px solid #CB6074;
+  text-align:center;
+  cursor:pointer;
+}
+
+.blog-card:hover{
+  box-shadow: 2px 4px 9px 2px grey;
+}
+    
+.card-img{
+  position:relative;
+  text-align:center;
+  background:#CB6074;
+}
+
+
+img{
+ max-height:180px;
+ width:100%;
+ border-bottom:4px solid #CB6074;
+}
+
+
+
+&:before{
+ content:'';
+ position: absolute;
+ bottom: -8px;
+ left: 50%;
+ margin-left: -10px;
+ width: 0;
+ height: 0;
+ border-top: solid 10px #CB6074;
+ border-left: solid 10px transparent;
+ border-right: solid 10px transparent;
+}
+
+
+
+h2{
+ position:absolute;
+ margin:0;
+ font-size:42px;
+ bottom:15px;
+ width:100%;
+ color:#fff;
+}
+
+
+.card-details{
+ margin-top:30px;
+ color:#3C3C3C;
+        
+}
+
+
+.card-text{
+ padding:30px 15px;
+ line-height:22px;
+}
+
+.btn{
+ display:inline-block;
+ width:auto;
+ text-align:center;
+ text-transform:uppercase;
+ background:#CB6074;
+ color:#fff;
+ border: none;
+ padding:15px;
+ margin-bottom:30px;
+ cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: #CB6074;
+  border: 1px solid #CB6074;
+}
+
+
+
+
+/*-------------------------------------Media Query---------------------------------------------------*/
+
+
+
+@media (min-width: 1281px) {
+  
+  
+  
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .blog-wrapper{
+    display: block;
+  }
+  
+}
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .blog-wrapper{
+    display: block;
+  }
+ 
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .blog-wrapper{
+    display: block;
+  }
+}
+
+@media (min-width: 220px) and (max-width: 320px) {
+  
+  .blog-wrapper{
+    display: block;
+  }
+ 
+}
+    
